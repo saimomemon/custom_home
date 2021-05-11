@@ -96,6 +96,7 @@ button:active {
   }
   h1 {
     color: black;
+    margin-top: 20%;
   }
   #searchbox {
     display: block;
