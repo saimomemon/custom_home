@@ -86,3 +86,25 @@ button:active {
   border: 0ch;
 }
 
+@media only screen and (max-width: 1080px) {
+  body {
+    background: url(pics/mobile.jpg);
+    background-size: 100%;
+  }
+  p {
+    visibility: hidden;
+  }
+  h1 {
+    color: black;
+  }
+  #searchbox {
+    display: block;
+    padding: 50% 15% 5%;
+  }
+  
+  form {
+    background-color: #d3d3d3;
+    height: 44px;
+    border-radius: 5px;
+  }
+}
