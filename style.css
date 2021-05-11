@@ -1,37 +1,88 @@
+body {
+  background-image: url(pics/Glass\ paperweight.jpg);
+  background-size: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Papyrus', sans-serif;
+}
+
+#searchbox {
+  display: block;
+  padding: 2% 35%;
+}
+
 form {
-    background-color: #4654e1;
-    width: 300px;
-    height: 44px;
-    border-radius: 5px;
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-  }
+  background-color: #d3d3d3;
+  height: 44px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
   
-  input {
-    all: unset;
-    font: 16px system-ui;
-    height: 100%;
-    width: 100%;
-    padding: 6px 10px;
-  }
+#query {
+  all: unset;
+  font: 16px system-ui;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+  text-align: center;
   
-  ::placeholder {
-    color: #fff;
-    opacity: 0.7; 
-  }
-  
-  svg {
-    color: #fff;
-    fill: currentColor;
-    width: 24px;
-    height: 24px;
-    padding: 10px;
-  }
-  
-  button {
-    all: unset;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-  }
+}
+
+::placeholder {
+  color: #636363;
+}
+
+#icon {
+  height: 30px;
+  padding: 2%;
+  opacity: 0.6;
+}
+
+#cross-btn {
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  padding: 0%;
+  background-color: #d3d3d3;
+}
+#cross{
+  height: 30px;
+  width: 30px;
+  margin: 0%;
+  padding: 0%;
+  opacity: 0.6;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: #0053ba;
+}
+
+button:active {
+  transform: scale(0.99);
+  border: 0ch;
+}
+
